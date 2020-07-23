@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weJapa Task 1</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --root-font: 62.5%;
+      --mobile-font: 50%;
+      --tablet-font: 56.25%;
+      --desktop-font: 85%;
+    }
+
+    body {
+      background-color: #17181c;
+    }
+
+    html {
+      font-size: var(--root-font);
+    }
+
+    @media only screen and (max-width: 1440px) {
+      html {
+        font-size: var(--desktop-font);
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      /* Tablet */
+      html {
+        /* 1rem = 10px */
+        font-size: var(--tablet-font);
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      /* Mobile */
+      html {
+        /* 1rem = 10px */
+        font-size: var(--mobile-font);
+      }
+    }
+
+    #container {
+      height: 100vh;
+    }
+
+    #container,
+    .container-box {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .container-box {
+      background-color: #fff;
+      height: 40vh;
+      width: 40vw;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1),
+        0 6px 20px 0 rgba(204, 201, 201, 0.1);
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div class="container-box">
+        <div>
+          <h1>Hello word <span>&#x1F44B;</span></h1>
+          <p>
+            welcome to weJapa internships
+            <span>&#129303;</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
