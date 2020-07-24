@@ -1,0 +1,24 @@
+{
+  "name": "wejapa-task-1",
+  "version": "1.0.0",
+  "description": "This repository is for the first task of weJapa internship (backend node js). It is a simple sever that return \"Hello world, welcome to weJapa internships\" page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmosSpark/WeJapa-Int-Task1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nodejs-server"
+  ],
+  "author": "amosspark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmosSpark/WeJapa-Int-Task1/issues"
+  },
+  "homepage": "https://github.com/AmosSpark/WeJapa-Int-Task1#readme"
+}
